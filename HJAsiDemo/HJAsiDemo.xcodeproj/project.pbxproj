@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEFC0A701CC119E2003FC026 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC0A6F1CC119E2003FC026 /* main.m */; };
+		CEFC0A731CC119E2003FC026 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC0A721CC119E2003FC026 /* AppDelegate.m */; };
+		CEFC0A761CC119E2003FC026 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC0A751CC119E2003FC026 /* ViewController.m */; };
+		CEFC0A791CC119E2003FC026 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFC0A771CC119E2003FC026 /* Main.storyboard */; };
+		CEFC0A7B1CC119E2003FC026 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFC0A7A1CC119E2003FC026 /* Assets.xcassets */; };
+		CEFC0A7E1CC119E2003FC026 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFC0A7C1CC119E2003FC026 /* LaunchScreen.storyboard */; };
+		CEFC0A891CC119E2003FC026 /* HJAsiDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC0A881CC119E2003FC026 /* HJAsiDemoTests.m */; };
+		CEFC0A941CC119E2003FC026 /* HJAsiDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC0A931CC119E2003FC026 /* HJAsiDemoUITests.m */; };
+		CEFC0ABC1CC11A99003FC026 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC0AA31CC11A99003FC026 /* ASIAuthenticationDialog.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CEFC0ABD1CC11A99003FC026 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC0AA61CC11A99003FC026 /* ASIDataCompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CEFC0ABE1CC11A99003FC026 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC0AA81CC11A99003FC026 /* ASIDataDecompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CEFC0ABF1CC11A99003FC026 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC0AAA1CC11A99003FC026 /* ASIDownloadCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CEFC0AC01CC11A99003FC026 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC0AAC1CC11A99003FC026 /* ASIFormDataRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CEFC0AC11CC11A99003FC026 /* ASIHTTPRequest-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEFC0AAD1CC11A99003FC026 /* ASIHTTPRequest-Info.plist */; };
+		CEFC0AC21CC11A99003FC026 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC0AB01CC11A99003FC026 /* ASIHTTPRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CEFC0AC31CC11A99003FC026 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC0AB41CC11A99003FC026 /* ASIInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CEFC0AC41CC11A99003FC026 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC0AB61CC11A99003FC026 /* ASINetworkQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CEFC0AC51CC11A99003FC026 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEFC0AB81CC11A99003FC026 /* InfoPlist.strings */; };
+		CEFC0AC61CC11A99003FC026 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC0ABB1CC11A99003FC026 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CEFC0AC81CC11CF2003FC026 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFC0AC71CC11CF2003FC026 /* libz.1.2.5.tbd */; };
+		CEFC0ACA1CC11D01003FC026 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFC0AC91CC11D01003FC026 /* SystemConfiguration.framework */; };
+		CEFC0ACC1CC11D0B003FC026 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFC0ACB1CC11D0B003FC026 /* MobileCoreServices.framework */; };
+		CEFC0ACE1CC11D13003FC026 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFC0ACD1CC11D13003FC026 /* CFNetwork.framework */; };
+		CEFC0AD31CC1237E003FC026 /* HJSecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC0AD21CC1237E003FC026 /* HJSecondVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEFC0A851CC119E2003FC026 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEFC0A631CC119E2003FC026 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEFC0A6A1CC119E2003FC026;
+			remoteInfo = HJAsiDemo;
+		};
+		CEFC0A901CC119E2003FC026 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEFC0A631CC119E2003FC026 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEFC0A6A1CC119E2003FC026;
+			remoteInfo = HJAsiDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEFC0A6B1CC119E2003FC026 /* HJAsiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJAsiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFC0A6F1CC119E2003FC026 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEFC0A711CC119E2003FC026 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEFC0A721CC119E2003FC026 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEFC0A741CC119E2003FC026 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEFC0A751CC119E2003FC026 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEFC0A781CC119E2003FC026 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEFC0A7A1CC119E2003FC026 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEFC0A7D1CC119E2003FC026 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEFC0A7F1CC119E2003FC026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFC0A841CC119E2003FC026 /* HJAsiDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJAsiDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFC0A881CC119E2003FC026 /* HJAsiDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJAsiDemoTests.m; sourceTree = "<group>"; };
+		CEFC0A8A1CC119E2003FC026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFC0A8F1CC119E2003FC026 /* HJAsiDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJAsiDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFC0A931CC119E2003FC026 /* HJAsiDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJAsiDemoUITests.m; sourceTree = "<group>"; };
+		CEFC0A951CC119E2003FC026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFC0AA21CC11A99003FC026 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		CEFC0AA31CC11A99003FC026 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		CEFC0AA41CC11A99003FC026 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		CEFC0AA51CC11A99003FC026 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		CEFC0AA61CC11A99003FC026 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		CEFC0AA71CC11A99003FC026 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		CEFC0AA81CC11A99003FC026 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		CEFC0AA91CC11A99003FC026 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		CEFC0AAA1CC11A99003FC026 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		CEFC0AAB1CC11A99003FC026 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		CEFC0AAC1CC11A99003FC026 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		CEFC0AAD1CC11A99003FC026 /* ASIHTTPRequest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ASIHTTPRequest-Info.plist"; sourceTree = "<group>"; };
+		CEFC0AAE1CC11A99003FC026 /* ASIHTTPRequest-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ASIHTTPRequest-Prefix.pch"; sourceTree = "<group>"; };
+		CEFC0AAF1CC11A99003FC026 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		CEFC0AB01CC11A99003FC026 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		CEFC0AB11CC11A99003FC026 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		CEFC0AB21CC11A99003FC026 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		CEFC0AB31CC11A99003FC026 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		CEFC0AB41CC11A99003FC026 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		CEFC0AB51CC11A99003FC026 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		CEFC0AB61CC11A99003FC026 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		CEFC0AB71CC11A99003FC026 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		CEFC0AB91CC11A99003FC026 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEFC0ABA1CC11A99003FC026 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		CEFC0ABB1CC11A99003FC026 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		CEFC0AC71CC11CF2003FC026 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		CEFC0AC91CC11D01003FC026 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CEFC0ACB1CC11D0B003FC026 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CEFC0ACD1CC11D13003FC026 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CEFC0ACF1CC11DCA003FC026 /* HJGuide.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJGuide.h; sourceTree = "<group>"; };
+		CEFC0AD11CC1237E003FC026 /* HJSecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJSecondVC.h; sourceTree = "<group>"; };
+		CEFC0AD21CC1237E003FC026 /* HJSecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJSecondVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEFC0A681CC119E2003FC026 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFC0ACE1CC11D13003FC026 /* CFNetwork.framework in Frameworks */,
+				CEFC0ACC1CC11D0B003FC026 /* MobileCoreServices.framework in Frameworks */,
+				CEFC0ACA1CC11D01003FC026 /* SystemConfiguration.framework in Frameworks */,
+				CEFC0AC81CC11CF2003FC026 /* libz.1.2.5.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFC0A811CC119E2003FC026 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFC0A8C1CC119E2003FC026 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEFC0A621CC119E2003FC026 = {
+			isa = PBXGroup;
+			children = (
+				CEFC0AD01CC11E3C003FC026 /* Framework */,
+				CEFC0A6D1CC119E2003FC026 /* HJAsiDemo */,
+				CEFC0A871CC119E2003FC026 /* HJAsiDemoTests */,
+				CEFC0A921CC119E2003FC026 /* HJAsiDemoUITests */,
+				CEFC0A6C1CC119E2003FC026 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEFC0A6C1CC119E2003FC026 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEFC0A6B1CC119E2003FC026 /* HJAsiDemo.app */,
+				CEFC0A841CC119E2003FC026 /* HJAsiDemoTests.xctest */,
+				CEFC0A8F1CC119E2003FC026 /* HJAsiDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEFC0A6D1CC119E2003FC026 /* HJAsiDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CEFC0AA11CC11A99003FC026 /* ASIHTTPRequest */,
+				CEFC0A711CC119E2003FC026 /* AppDelegate.h */,
+				CEFC0A721CC119E2003FC026 /* AppDelegate.m */,
+				CEFC0A741CC119E2003FC026 /* ViewController.h */,
+				CEFC0A751CC119E2003FC026 /* ViewController.m */,
+				CEFC0AD11CC1237E003FC026 /* HJSecondVC.h */,
+				CEFC0AD21CC1237E003FC026 /* HJSecondVC.m */,
+				CEFC0ACF1CC11DCA003FC026 /* HJGuide.h */,
+				CEFC0A771CC119E2003FC026 /* Main.storyboard */,
+				CEFC0A7A1CC119E2003FC026 /* Assets.xcassets */,
+				CEFC0A7C1CC119E2003FC026 /* LaunchScreen.storyboard */,
+				CEFC0A7F1CC119E2003FC026 /* Info.plist */,
+				CEFC0A6E1CC119E2003FC026 /* Supporting Files */,
+			);
+			path = HJAsiDemo;
+			sourceTree = "<group>";
+		};
+		CEFC0A6E1CC119E2003FC026 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEFC0A6F1CC119E2003FC026 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEFC0A871CC119E2003FC026 /* HJAsiDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEFC0A881CC119E2003FC026 /* HJAsiDemoTests.m */,
+				CEFC0A8A1CC119E2003FC026 /* Info.plist */,
+			);
+			path = HJAsiDemoTests;
+			sourceTree = "<group>";
+		};
+		CEFC0A921CC119E2003FC026 /* HJAsiDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEFC0A931CC119E2003FC026 /* HJAsiDemoUITests.m */,
+				CEFC0A951CC119E2003FC026 /* Info.plist */,
+			);
+			path = HJAsiDemoUITests;
+			sourceTree = "<group>";
+		};
+		CEFC0AA11CC11A99003FC026 /* ASIHTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				CEFC0AA21CC11A99003FC026 /* ASIAuthenticationDialog.h */,
+				CEFC0AA31CC11A99003FC026 /* ASIAuthenticationDialog.m */,
+				CEFC0AA41CC11A99003FC026 /* ASICacheDelegate.h */,
+				CEFC0AA51CC11A99003FC026 /* ASIDataCompressor.h */,
+				CEFC0AA61CC11A99003FC026 /* ASIDataCompressor.m */,
+				CEFC0AA71CC11A99003FC026 /* ASIDataDecompressor.h */,
+				CEFC0AA81CC11A99003FC026 /* ASIDataDecompressor.m */,
+				CEFC0AA91CC11A99003FC026 /* ASIDownloadCache.h */,
+				CEFC0AAA1CC11A99003FC026 /* ASIDownloadCache.m */,
+				CEFC0AAB1CC11A99003FC026 /* ASIFormDataRequest.h */,
+				CEFC0AAC1CC11A99003FC026 /* ASIFormDataRequest.m */,
+				CEFC0AAD1CC11A99003FC026 /* ASIHTTPRequest-Info.plist */,
+				CEFC0AAE1CC11A99003FC026 /* ASIHTTPRequest-Prefix.pch */,
+				CEFC0AAF1CC11A99003FC026 /* ASIHTTPRequest.h */,
+				CEFC0AB01CC11A99003FC026 /* ASIHTTPRequest.m */,
+				CEFC0AB11CC11A99003FC026 /* ASIHTTPRequestConfig.h */,
+				CEFC0AB21CC11A99003FC026 /* ASIHTTPRequestDelegate.h */,
+				CEFC0AB31CC11A99003FC026 /* ASIInputStream.h */,
+				CEFC0AB41CC11A99003FC026 /* ASIInputStream.m */,
+				CEFC0AB51CC11A99003FC026 /* ASINetworkQueue.h */,
+				CEFC0AB61CC11A99003FC026 /* ASINetworkQueue.m */,
+				CEFC0AB71CC11A99003FC026 /* ASIProgressDelegate.h */,
+				CEFC0AB81CC11A99003FC026 /* InfoPlist.strings */,
+				CEFC0ABA1CC11A99003FC026 /* Reachability.h */,
+				CEFC0ABB1CC11A99003FC026 /* Reachability.m */,
+			);
+			path = ASIHTTPRequest;
+			sourceTree = "<group>";
+		};
+		CEFC0AD01CC11E3C003FC026 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				CEFC0ACD1CC11D13003FC026 /* CFNetwork.framework */,
+				CEFC0ACB1CC11D0B003FC026 /* MobileCoreServices.framework */,
+				CEFC0AC91CC11D01003FC026 /* SystemConfiguration.framework */,
+				CEFC0AC71CC11CF2003FC026 /* libz.1.2.5.tbd */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEFC0A6A1CC119E2003FC026 /* HJAsiDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFC0A981CC119E2003FC026 /* Build configuration list for PBXNativeTarget "HJAsiDemo" */;
+			buildPhases = (
+				CEFC0A671CC119E2003FC026 /* Sources */,
+				CEFC0A681CC119E2003FC026 /* Frameworks */,
+				CEFC0A691CC119E2003FC026 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HJAsiDemo;
+			productName = HJAsiDemo;
+			productReference = CEFC0A6B1CC119E2003FC026 /* HJAsiDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEFC0A831CC119E2003FC026 /* HJAsiDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFC0A9B1CC119E2003FC026 /* Build configuration list for PBXNativeTarget "HJAsiDemoTests" */;
+			buildPhases = (
+				CEFC0A801CC119E2003FC026 /* Sources */,
+				CEFC0A811CC119E2003FC026 /* Frameworks */,
+				CEFC0A821CC119E2003FC026 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEFC0A861CC119E2003FC026 /* PBXTargetDependency */,
+			);
+			name = HJAsiDemoTests;
+			productName = HJAsiDemoTests;
+			productReference = CEFC0A841CC119E2003FC026 /* HJAsiDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEFC0A8E1CC119E2003FC026 /* HJAsiDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFC0A9E1CC119E2003FC026 /* Build configuration list for PBXNativeTarget "HJAsiDemoUITests" */;
+			buildPhases = (
+				CEFC0A8B1CC119E2003FC026 /* Sources */,
+				CEFC0A8C1CC119E2003FC026 /* Frameworks */,
+				CEFC0A8D1CC119E2003FC026 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEFC0A911CC119E2003FC026 /* PBXTargetDependency */,
+			);
+			name = HJAsiDemoUITests;
+			productName = HJAsiDemoUITests;
+			productReference = CEFC0A8F1CC119E2003FC026 /* HJAsiDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEFC0A631CC119E2003FC026 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = huangjiong123;
+				TargetAttributes = {
+					CEFC0A6A1CC119E2003FC026 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					CEFC0A831CC119E2003FC026 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CEFC0A6A1CC119E2003FC026;
+					};
+					CEFC0A8E1CC119E2003FC026 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CEFC0A6A1CC119E2003FC026;
+					};
+				};
+			};
+			buildConfigurationList = CEFC0A661CC119E2003FC026 /* Build configuration list for PBXProject "HJAsiDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEFC0A621CC119E2003FC026;
+			productRefGroup = CEFC0A6C1CC119E2003FC026 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEFC0A6A1CC119E2003FC026 /* HJAsiDemo */,
+				CEFC0A831CC119E2003FC026 /* HJAsiDemoTests */,
+				CEFC0A8E1CC119E2003FC026 /* HJAsiDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEFC0A691CC119E2003FC026 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFC0A7E1CC119E2003FC026 /* LaunchScreen.storyboard in Resources */,
+				CEFC0A7B1CC119E2003FC026 /* Assets.xcassets in Resources */,
+				CEFC0AC11CC11A99003FC026 /* ASIHTTPRequest-Info.plist in Resources */,
+				CEFC0A791CC119E2003FC026 /* Main.storyboard in Resources */,
+				CEFC0AC51CC11A99003FC026 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFC0A821CC119E2003FC026 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFC0A8D1CC119E2003FC026 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEFC0A671CC119E2003FC026 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFC0ABD1CC11A99003FC026 /* ASIDataCompressor.m in Sources */,
+				CEFC0A761CC119E2003FC026 /* ViewController.m in Sources */,
+				CEFC0AC21CC11A99003FC026 /* ASIHTTPRequest.m in Sources */,
+				CEFC0AD31CC1237E003FC026 /* HJSecondVC.m in Sources */,
+				CEFC0ABC1CC11A99003FC026 /* ASIAuthenticationDialog.m in Sources */,
+				CEFC0AC01CC11A99003FC026 /* ASIFormDataRequest.m in Sources */,
+				CEFC0A731CC119E2003FC026 /* AppDelegate.m in Sources */,
+				CEFC0AC31CC11A99003FC026 /* ASIInputStream.m in Sources */,
+				CEFC0A701CC119E2003FC026 /* main.m in Sources */,
+				CEFC0AC41CC11A99003FC026 /* ASINetworkQueue.m in Sources */,
+				CEFC0ABE1CC11A99003FC026 /* ASIDataDecompressor.m in Sources */,
+				CEFC0AC61CC11A99003FC026 /* Reachability.m in Sources */,
+				CEFC0ABF1CC11A99003FC026 /* ASIDownloadCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFC0A801CC119E2003FC026 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFC0A891CC119E2003FC026 /* HJAsiDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFC0A8B1CC119E2003FC026 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFC0A941CC119E2003FC026 /* HJAsiDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEFC0A861CC119E2003FC026 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEFC0A6A1CC119E2003FC026 /* HJAsiDemo */;
+			targetProxy = CEFC0A851CC119E2003FC026 /* PBXContainerItemProxy */;
+		};
+		CEFC0A911CC119E2003FC026 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEFC0A6A1CC119E2003FC026 /* HJAsiDemo */;
+			targetProxy = CEFC0A901CC119E2003FC026 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEFC0A771CC119E2003FC026 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFC0A781CC119E2003FC026 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEFC0A7C1CC119E2003FC026 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFC0A7D1CC119E2003FC026 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CEFC0AB81CC11A99003FC026 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFC0AB91CC11A99003FC026 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEFC0A961CC119E2003FC026 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEFC0A971CC119E2003FC026 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEFC0A991CC119E2003FC026 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HJAsiDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hj.com.HJAsiDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEFC0A9A1CC119E2003FC026 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HJAsiDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hj.com.HJAsiDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CEFC0A9C1CC119E2003FC026 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HJAsiDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hj.com.HJAsiDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HJAsiDemo.app/HJAsiDemo";
+			};
+			name = Debug;
+		};
+		CEFC0A9D1CC119E2003FC026 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HJAsiDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hj.com.HJAsiDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HJAsiDemo.app/HJAsiDemo";
+			};
+			name = Release;
+		};
+		CEFC0A9F1CC119E2003FC026 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HJAsiDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hj.com.HJAsiDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HJAsiDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CEFC0AA01CC119E2003FC026 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HJAsiDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hj.com.HJAsiDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HJAsiDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEFC0A661CC119E2003FC026 /* Build configuration list for PBXProject "HJAsiDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFC0A961CC119E2003FC026 /* Debug */,
+				CEFC0A971CC119E2003FC026 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFC0A981CC119E2003FC026 /* Build configuration list for PBXNativeTarget "HJAsiDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFC0A991CC119E2003FC026 /* Debug */,
+				CEFC0A9A1CC119E2003FC026 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEFC0A9B1CC119E2003FC026 /* Build configuration list for PBXNativeTarget "HJAsiDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFC0A9C1CC119E2003FC026 /* Debug */,
+				CEFC0A9D1CC119E2003FC026 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEFC0A9E1CC119E2003FC026 /* Build configuration list for PBXNativeTarget "HJAsiDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFC0A9F1CC119E2003FC026 /* Debug */,
+				CEFC0AA01CC119E2003FC026 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEFC0A631CC119E2003FC026 /* Project object */;
+}
