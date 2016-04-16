@@ -1,32 +1,31 @@
 //
-//  ViewController.m
+//  HJFirstVC.m
 //  HJAsiDemo
 //
-//  Created by huangjiong on 16/4/15.
+//  Created by huangjiong on 16/4/16.
 //  Copyright © 2016年 huangjiong123. All rights reserved.
 //
 
-
-
-#import "ViewController.h"
+#import "HJFirstVC.h"
 #import "ASIHTTPRequest.h"
 
-@interface ViewController ()<ASIHTTPRequestDelegate>
+@interface HJFirstVC ()<ASIHTTPRequestDelegate>
 
 @end
 
-@implementation ViewController
+@implementation HJFirstVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view.
 }
 
 #pragma mark - 同步请求
 /**
  *  同步请求
+ *  同步请求将发生死锁现象, 并且同步请求不能被取消
  */
--(void)sync
+-(void)syncRequest
 {
     //1.url
     NSURL *url = [NSURL URLWithString:@""];
@@ -46,7 +45,10 @@
 
 
 #pragma mark - 异步请求,block
--(void)asyncWithBlock
+/**
+ *  第1种: 设置block回调来获取响应数据
+ */
+-(void)asyncRequestWithBlock
 {
     //1.url
     NSURL *url = [NSURL URLWithString:@""];
@@ -64,15 +66,15 @@
     //4.开始异步请求
     [request startAsynchronous];
     
-    //5.注意:注意：在我们声明请求时，用到了__block限定语，这很重要！它告诉block不要保留请求，来防止一个保留循环(retain-cycle)，因为请求总会保留block.
+    //5.注意: 此处在声明请求时，用到了__block限定语，这很重要！它告诉block不要保留请求，来防止一个保留循环(retain-cycle)，因为请求总会保留block.
 }
 
 
 #pragma mark - 异步请求,代理
 /**
- *  异步请求
+ *  第2种: 通过设置代理, 实现代理方法来获取响应数据
  */
--(void)asyncWithDelegate
+-(void)asyncRequestWithDelegate
 {
     //1.url
     NSURL *url = [NSURL URLWithString:@""];

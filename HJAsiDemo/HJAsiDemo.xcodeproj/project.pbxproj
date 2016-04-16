@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEC28CB21CC1B2F700D9FB14 /* HJFirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC28CB11CC1B2F700D9FB14 /* HJFirstVC.m */; };
+		CEC28CB51CC1BADB00D9FB14 /* HJThirdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC28CB41CC1BADB00D9FB14 /* HJThirdVC.m */; };
 		CEFC0A701CC119E2003FC026 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC0A6F1CC119E2003FC026 /* main.m */; };
 		CEFC0A731CC119E2003FC026 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC0A721CC119E2003FC026 /* AppDelegate.m */; };
-		CEFC0A761CC119E2003FC026 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC0A751CC119E2003FC026 /* ViewController.m */; };
 		CEFC0A791CC119E2003FC026 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFC0A771CC119E2003FC026 /* Main.storyboard */; };
 		CEFC0A7B1CC119E2003FC026 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFC0A7A1CC119E2003FC026 /* Assets.xcassets */; };
 		CEFC0A7E1CC119E2003FC026 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFC0A7C1CC119E2003FC026 /* LaunchScreen.storyboard */; };
@@ -51,12 +52,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CEC28CB01CC1B2F700D9FB14 /* HJFirstVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJFirstVC.h; sourceTree = "<group>"; };
+		CEC28CB11CC1B2F700D9FB14 /* HJFirstVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJFirstVC.m; sourceTree = "<group>"; };
+		CEC28CB31CC1BADB00D9FB14 /* HJThirdVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJThirdVC.h; sourceTree = "<group>"; };
+		CEC28CB41CC1BADB00D9FB14 /* HJThirdVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJThirdVC.m; sourceTree = "<group>"; };
+		CEC28CB61CC1BBF500D9FB14 /* HJDocumentation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJDocumentation.h; sourceTree = "<group>"; };
+		CEC28CB71CC1C03D00D9FB14 /* HJDocumentation2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJDocumentation2.h; sourceTree = "<group>"; };
 		CEFC0A6B1CC119E2003FC026 /* HJAsiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJAsiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFC0A6F1CC119E2003FC026 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CEFC0A711CC119E2003FC026 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CEFC0A721CC119E2003FC026 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CEFC0A741CC119E2003FC026 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CEFC0A751CC119E2003FC026 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CEFC0A781CC119E2003FC026 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEFC0A7A1CC119E2003FC026 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEFC0A7D1CC119E2003FC026 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -157,11 +162,15 @@
 				CEFC0AA11CC11A99003FC026 /* ASIHTTPRequest */,
 				CEFC0A711CC119E2003FC026 /* AppDelegate.h */,
 				CEFC0A721CC119E2003FC026 /* AppDelegate.m */,
-				CEFC0A741CC119E2003FC026 /* ViewController.h */,
-				CEFC0A751CC119E2003FC026 /* ViewController.m */,
+				CEC28CB61CC1BBF500D9FB14 /* HJDocumentation.h */,
+				CEC28CB71CC1C03D00D9FB14 /* HJDocumentation2.h */,
+				CEFC0ACF1CC11DCA003FC026 /* HJGuide.h */,
+				CEC28CB01CC1B2F700D9FB14 /* HJFirstVC.h */,
+				CEC28CB11CC1B2F700D9FB14 /* HJFirstVC.m */,
 				CEFC0AD11CC1237E003FC026 /* HJSecondVC.h */,
 				CEFC0AD21CC1237E003FC026 /* HJSecondVC.m */,
-				CEFC0ACF1CC11DCA003FC026 /* HJGuide.h */,
+				CEC28CB31CC1BADB00D9FB14 /* HJThirdVC.h */,
+				CEC28CB41CC1BADB00D9FB14 /* HJThirdVC.m */,
 				CEFC0A771CC119E2003FC026 /* Main.storyboard */,
 				CEFC0A7A1CC119E2003FC026 /* Assets.xcassets */,
 				CEFC0A7C1CC119E2003FC026 /* LaunchScreen.storyboard */,
@@ -373,7 +382,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEFC0ABD1CC11A99003FC026 /* ASIDataCompressor.m in Sources */,
-				CEFC0A761CC119E2003FC026 /* ViewController.m in Sources */,
 				CEFC0AC21CC11A99003FC026 /* ASIHTTPRequest.m in Sources */,
 				CEFC0AD31CC1237E003FC026 /* HJSecondVC.m in Sources */,
 				CEFC0ABC1CC11A99003FC026 /* ASIAuthenticationDialog.m in Sources */,
@@ -381,8 +389,10 @@
 				CEFC0A731CC119E2003FC026 /* AppDelegate.m in Sources */,
 				CEFC0AC31CC11A99003FC026 /* ASIInputStream.m in Sources */,
 				CEFC0A701CC119E2003FC026 /* main.m in Sources */,
+				CEC28CB51CC1BADB00D9FB14 /* HJThirdVC.m in Sources */,
 				CEFC0AC41CC11A99003FC026 /* ASINetworkQueue.m in Sources */,
 				CEFC0ABE1CC11A99003FC026 /* ASIDataDecompressor.m in Sources */,
+				CEC28CB21CC1B2F700D9FB14 /* HJFirstVC.m in Sources */,
 				CEFC0AC61CC11A99003FC026 /* Reachability.m in Sources */,
 				CEFC0ABF1CC11A99003FC026 /* ASIDownloadCache.m in Sources */,
 			);
@@ -618,6 +628,7 @@
 				CEFC0A9A1CC119E2003FC026 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEFC0A9B1CC119E2003FC026 /* Build configuration list for PBXNativeTarget "HJAsiDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -626,6 +637,7 @@
 				CEFC0A9D1CC119E2003FC026 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEFC0A9E1CC119E2003FC026 /* Build configuration list for PBXNativeTarget "HJAsiDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -634,6 +646,7 @@
 				CEFC0AA01CC119E2003FC026 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

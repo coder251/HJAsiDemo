@@ -24,8 +24,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    //队列
-    self.queue = [[ASINetworkQueue alloc] init];
+    
     //url
     NSURL *url = [NSURL URLWithString:@""];
     //请求对象
@@ -40,11 +39,22 @@
     request.tag = 33;
     request.userInfo = @{@"hjKey":@"hjValue"};
     
+    
+    //队列
+    self.queue = [[ASINetworkQueue alloc] init];
+    //设置最大并发数
+    self.queue.maxConcurrentOperationCount = 10;
+    //设置在有请求失败时,不会取消其他所有请求
+    self.queue.shouldCancelAllRequestsOnFailure = NO;
     //将请求加入队列
     [self.queue addOperation:request];
+    //开始执行
+    [self.queue go];
     
 }
 
+
+#pragma mark - 自定义代理的回调方法, 通常用于区分完全不同的多个请求
 /**
  *  请求完成
  */
@@ -65,6 +75,28 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)asiRequest
+{
+    ASIHTTPRequest *request;
+    //取消请求,不能取消同步请求
+    [request cancel];
+    
+    //请求被取消后,将发触发失败回调
+    //如果不想触发失败回调,可以这么做:
+    request.delegate = nil;//或者这样来取消请求:
+    [request clearDelegatesAndCancel];
+    
+    
+}
+
+-(void)asiQueue
+{
+    ASINetworkQueue *queue;
+    
+    //取消所有操作
+    [queue cancelAllOperations];
 }
 
 /*

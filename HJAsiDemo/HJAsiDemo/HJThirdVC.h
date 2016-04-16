@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  HJThirdVC.h
 //  HJAsiDemo
 //
-//  Created by huangjiong on 16/4/15.
+//  Created by huangjiong on 16/4/16.
 //  Copyright © 2016年 huangjiong123. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface HJThirdVC : UIViewController
 
 @end
-
